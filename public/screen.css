@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font-family: 'Patua One', cursive;
 }
 
 html {
@@ -9,15 +9,25 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(44, 77, 78);
+}
+
+h1 {
+  margin: auto;
+  color: ivory;
+  padding: 1rem 0;
+  border: thick;
 }
 
 footer {
+  opacity: 0.5;
   display: flex;
   justify-content: center;
   padding: 2rem;
 }
 
 body {
+  margin: auto;
   display: grid;
   justify-content: center;
 }
@@ -26,4 +36,23 @@ h2 {
   display: flex;
   justify-content: space-around;
   margin: 0, 2rem;
+}
+a:link {
+  color: ivory;
+}
+
+a:visited {
+  color: rgb(22, 22, 22);
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+a:active {
+  color: rebeccapurple;
+}
+
+p {
+  color: ivory;
 }
